@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header section start */
+.header-section{
+  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+.menu-area{
+    display: flex;
+    width: 100%;
+}
+.logo-area {
+    width: 30%;
+}
+.logo-area a img{
+    width: 30%;
+    height: 70px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.nav{
+    width: 70%;
+}
+.nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+/* header section end */
+/* banner section start */
+.banner-area{
+    display: flex;
+}
+.banner-text{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 14%;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #00203FFF;
+}
+.banner-text h1 span{
+    color: #2193b0;
+}
+.banner-text a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img {
+    width: 100%;
+    margin-top: 10%;
+}
+/* banner section end */
+/* start about us section */
+.about-section{
+    display: flex;
+    background-image: url(images/Frame.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 40px;
+}
+.about-image{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.about-image img{
+    height: 600px;
+}
+.about-text{
+    width: 50%;
+    color: gray;
+    text-align: justify;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+.about-text h2{
+    font-size: 40px;
+    color: #2193b0;
+}
+.about-text a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to left, #2193b0, #6dd5ed);
+    padding: 15px 25px;
+    border-radius: 26px;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* racipies secction start */
+.recipies-section{
+    text-align: center;
+    color: gray;
+}
+.recipies-section h2{
+    font-size: 40px;
+    color: #2193b0;
+}
+.racipies{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.racipies-title{
+    padding: 50px 0;
+}
+
+.card{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.card h4 span{
+    color: red;
+    padding-left: 10px;
+}
+/* racipies section end  */
+/* counter section */
+.counter-section{
+    padding: 40px 0;
+    margin-top: 50px;
+}
+.counters{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+.counter-item{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.extra-mar-l{
+    margin-left: 10%;
+}
+.extra-mar-r{
+    margin-right: 10%;
+}
+.counter-item h3{
+    font-size: 40px;
+    margin: 0;
+}
+/* contact section */
+.contact-title h2{
+    text-align: center;
+    font-size: 40px;
+    color: #2193b0;
+}
+.input-area ul{
+    list-style: none;
+}
+.input-area{
+    background: #2193b0;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.input-area ul li input {
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5PX;
+}
+.input-area ul li textarea {
+    resize: none;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    height: 100px;
+    padding: 0 5PX;
+}
+footer h2{
+    font-size: 40px;
+}
+footer h2 span {
+    color: #2193b0;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+
